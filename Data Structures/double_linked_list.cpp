@@ -89,7 +89,6 @@ struct Doubly{
 };
 int main(){
 struct Doubly doubly;
-
 	doubly.addToEnd(12);	
 	Node *stored = doubly.addToEnd(13);
 	doubly.addToEnd(14);
