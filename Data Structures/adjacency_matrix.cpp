@@ -24,7 +24,6 @@ class AdjacencyMatrix{
                 }
                 cout<<" "<<endl;
             }
-            
         }
         void addEdge(int origin, int destination){
             if(origin > nodes || destination > nodes || origin <= 0 || destination <= 0){
