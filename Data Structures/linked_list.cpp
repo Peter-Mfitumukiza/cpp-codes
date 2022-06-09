@@ -52,11 +52,10 @@ class Linkedlist{
                 cout<<"Invalid operation"<<endl;
                 return;
             }
-            current = head;
             while(position > 1){
-                position--;
                 previous = current;
                 current = current->next;
+                position--;
             }
             previous->next = current->next;
             delete current;
