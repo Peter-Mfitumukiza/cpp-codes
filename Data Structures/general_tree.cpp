@@ -37,7 +37,7 @@ void BFS_display(Node *root){
 			size --;
 			que.pop_front();
 		}
-		cout<<endl<<endl;
+		cout<<endl;
 	}
 }
 
@@ -49,7 +49,7 @@ int main(){
     Node *firstSibling = addNode(firstChild, 7);
     Node *secondSibling = addNode(firstChild, 8);
     Node *thirdSibling = addNode(secondChild, 9);
-    cout<<"\n";
+    Node *fourthSibling = addNode(thirdChild, 20);
     BFS_display(root);
     return 0;
 }
