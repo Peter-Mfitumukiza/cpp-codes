@@ -13,11 +13,9 @@ int main(){
             }
         }
     }
-
     for(int val:arr){
         cout<<val<<" ";
     }
         cout<<endl;
-
     return 0;
 }
